@@ -23,7 +23,7 @@ HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/teddevrieslentsch/morado-5m
 PREVIEW_IMAGE_ID: int = 381556
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = "https://github.com/dataset-ninja/morade_5may"
+GITHUB_URL: str = "https://github.com/dataset-ninja/morado_5may"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
