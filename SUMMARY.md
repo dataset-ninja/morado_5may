@@ -1,9 +1,7 @@
-**Morado 5 May** is a dataset for object detection tasks. It is used in the agriculture industry.
+**morado_5may: A Dataset for Detection of Ripe Flowers of the Alstroemeria Genus Morado** is a dataset for object detection tasks. It is used in the educational domain. Possible applications of the dataset could be in the agricultural industry. 
 
 The dataset consists of 414 images with 5439 labeled objects belonging to 2 different classes including *raw* and *ripe*.
 
-Each image in the Morado 5 May dataset has bounding boxes annotations. All images are labeled (i.e. with annotations). There is 1 split in the dataset: *ds0* (414 images). The dataset was released in 2021.
+Images in the morado_5may dataset have bounding box annotations. All images are labeled (i.e. with annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The dataset was released in 2021 by the [Delft University of Technology, Netherlands](https://www.tudelft.nl/) and [Hoogenboom Alstroemeria, Netherlands](https://hoogenboomalstroemeria.nl/).
 
-Here is the visualized example grid with annotations:
-
-<img src="https://github.com/dataset-ninja/morado_5may/raw/main/visualizations/horizontal_grid.png">
+<img src="https://github.com/dataset-ninja/morado_5may/raw/main/visualizations/poster.png">

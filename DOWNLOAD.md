@@ -1,8 +1,8 @@
-Dataset **Morado 5 May** can be downloaded in Supervisely format:
+Dataset **morado_5may** can be downloaded in Supervisely format:
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/P/W/tD/6UMlhoCXPpMQdQI9fYiES0kNWl2o5w17Tl1SRdiokOEcZ1KBbU5g7DJN9LiU056YtgzHjIZq5WzHl0xzO4ks2u81A797RPYrtZAtRo0EGhf4wkVzl81KbzsEZpRZ.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/S/j/KU/EHfiez4EJA561Fe4IrhmkT4SkkSZYal6nG7J68ONnWPDSkuasjmUISjrcvbCic1UnO3QfVCw5wklTB5qtHRogq2Pueqd3hi2q2rDj1cuaIN3Bzyya1gcALugZW8d.tar)
 
-As an alternative, it can be downloaded with dataset-tools package:
+As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
 pip install --upgrade dataset-tools
 ```
@@ -11,6 +11,6 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Morado 5 May', dst_path='~/dtools/datasets/Morado 5 May.tar')
+dtools.download(dataset='morado_5may', dst_path='~/dtools/datasets/morado_5may.tar')
 ```
 The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/teddevrieslentsch/morado-5may/download?datasetVersionNumber=4)

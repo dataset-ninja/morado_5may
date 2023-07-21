@@ -1,10 +1,11 @@
-If you make use of the Morado 5 May data, please cite the following reference:
+If you make use of the morado_5may data, please cite the following reference:
 
-```bibtex
-@misc{Morado 5 May,
-	author = "TED LENTSCH",
-	title = "Morado 5 May",
-	howpublished = "https://www.kaggle.com/datasets/teddevrieslentsch/morado-5may"
+``` bibtex 
+@dataset{morado_5may,
+	author={Stan Zwinkels and Ted de Vries Lentsch},
+	title={morado_5may: A Dataset for Detection of Ripe Flowers of the Alstroemeria Genus Morado},
+	year={2021},
+	url={https://www.kaggle.com/datasets/teddevrieslentsch/morado-5may}
 }
 ```
 
