@@ -24,7 +24,6 @@ PROJECT_NAME_FULL: Optional[
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Agricultural(is_used=False),
-    Domain.Educational(),
 ]
 CATEGORY: Category = Category.Agriculture()
 
