@@ -9,4 +9,4 @@ If you make use of the morado_5may data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://www.kaggle.com/datasets/teddevrieslentsch/morado-5may)
+[Source](https://www.kaggle.com/datasets/teddevrieslentsch/morado-5may)
