@@ -17,6 +17,7 @@ PROJECT_NAME: str = "morado_5may"
 PROJECT_NAME_FULL: Optional[
     str
 ] = "morado_5may: A Dataset for Detection of Ripe Flowers of the Alstroemeria Genus Morado"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -91,6 +92,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,
