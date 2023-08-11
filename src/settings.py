@@ -55,7 +55,8 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 CLASS2COLOR: Optional[Dict[str, List[str]]] = {"ripe": [0, 0, 255], "raw": [255, 0, 0]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[
+PAPER: Optional[str] = None
+BLOGPOST: Optional[
     str
 ] = "https://stanzwinkels.medium.com/detection-of-ripe-flowers-of-the-alstroemeria-genus-morado-2028186f50af"
 CITATION_URL: Optional[str] = None
@@ -111,6 +112,7 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["blog"] = BLOGPOST
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
     settings["organization_name"] = ORGANIZATION_NAME
