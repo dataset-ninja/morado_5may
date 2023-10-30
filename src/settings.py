@@ -56,11 +56,14 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {"ripe": [0, 0, 255], "raw": [255,
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/TedLentsch/ComputerVision_Group20"}
+
 BLOGPOST: Optional[
     str
 ] = "https://stanzwinkels.medium.com/detection-of-ripe-flowers-of-the-alstroemeria-genus-morado-2028186f50af"
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Stan Zwinkels", "Ted de Vries Lentsch"]
+AUTHORS_CONTACTS: Optional[List[str]] = None
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Delft University of Technology, Netherlands",
@@ -112,9 +115,11 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["repository"] = REPOSITORY
     settings["blog"] = BLOGPOST
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
