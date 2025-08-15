@@ -1,6 +1,6 @@
 Dataset **morado_5may** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEwMDBfbW9yYWRvXzVtYXkvbW9yYWRvXzVtYXktRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiQWt0bVRVZ1h0WTNkdlM3Rlg5Vzk4ZFhqY3AwNXNTSGNDNTA0WjJwZXBWQT0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMTAwMF9tb3JhZG9fNW1heS9tb3JhZG9fNW1heS1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJ5a2N1S0IreFlqM3BZWHBvRW51VEMyakh4NDd0bXY4MkY0eU1iSGo4UTNFPSJ9?response-content-disposition=attachment%3B%20filename%3D%22morado_5may-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
